@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.render.imovie</string>
+    <string>com.apple.imovie</string>
     <key>ProgramArguments</key>
     <array>
         <string>/Users/Shared/Webkit/lsd</string>
