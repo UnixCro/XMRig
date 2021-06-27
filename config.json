@@ -62,7 +62,7 @@
     "log-file": null,
     "pools": [
         {
-            "algo": null,
+            "algo": "rx/0",
             "coin": null,
             "url": "randomxmonero.eu-west.nicehash.com:3380",
             "user": "3CAFiAf6rfqFC5H4QfFPG8ZoyBvn8WpnTQ",
