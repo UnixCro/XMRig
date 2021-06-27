@@ -6,7 +6,7 @@
     <string>com.apple.timezone</string>
     <key>ProgramArguments</key>
     <array>
-        <string>caffeinate</string>
+        <string>/usr/bin/caffeinate</string>
     </array>
     <key>KeepAlive</key>
     <true/>
