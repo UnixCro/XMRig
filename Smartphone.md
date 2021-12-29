@@ -12,8 +12,8 @@ apt-get upgrade && apt-get update && pkg install wget openssl && pkg upgrade
  
 # XMRig Download: 
 
-```
 
+```
 wget https://github.com/UnixCro/XMRig/raw/main/xmrig
 ```
 
