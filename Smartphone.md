@@ -4,6 +4,12 @@ https://f-droid.org/repo/com.termux_117.apk
 
 <br>
 
+# Updaten & Packet Installation 
+
+```
+apt-get upgrade && apt-get update && pkg install wget openssl && pkg upgrade
+```
+ 
 # XMRig Download: 
 
 ```
@@ -12,6 +18,7 @@ wget https://github.com/UnixCro/XMRig/raw/main/xmrig
 ```
 
 <br>
+
 
 # Einrichtung 
 
