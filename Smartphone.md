@@ -7,7 +7,7 @@ https://f-droid.org/repo/com.termux_117.apk
 # Updaten & Packet Installation 
 
 ```
-apt-get upgrade && apt-get update && pkg install wget openssl && pkg upgrade
+apt-get upgrade && apt-get update && pkg install wget openssl cmake && pkg upgrade
 ```
  
 # XMRig Download: 
