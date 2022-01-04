@@ -4,7 +4,7 @@ https://f-droid.org/repo/com.termux_117.apk
 
 <br>
 
-# Updaten & Packet Installation 
+# Updaten & Packet Installation (auf N drücken)
 
 ```
 apt-get upgrade && apt-get update && pkg install wget openssl cmake && pkg upgrade
